@@ -1,0 +1,74 @@
+Simulare completă pentru 100 clienți:
+  Ghișee: 1
+  Rată sosire (lambda): 0.3
+  Rată servire (mu): 0.5
+  Timp mediu așteptare: 1.85 minute
+  Congestie maximă: 5 clienți în coadă
+  Clienți serviți: 100
+  Timp total simulare: 378.89 minute
+  Eficiență ghișeu (utilization): 55.6%
+  Statistici așteptare (minute):
+    max: 12.49
+    p50: 0.27
+    p90: 5.32
+    p95: 7.17
+    p99: 11.76
+
+Momente congestie maximă (time, queue_len when new max reached):
+  t=0.30  q=1
+  t=20.07  q=2
+  t=77.99  q=3
+  t=110.45  q=4
+  t=117.24  q=5
+
+Distribuție așteptare (primele 50 valori):
+0.0000
+0.0000
+0.0000
+0.0000
+2.7911
+5.3499
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+1.5885
+4.5689
+6.4506
+4.2067
+2.9267
+4.6111
+2.2083
+1.6576
+0.0000
+0.0000
+0.0494
+0.0000
+7.1137
+10.3673
+12.4921
+11.7533
+9.9865
+8.2461
+0.0000
+2.5891
+0.0000
+2.4906
+1.4738
+1.7079
+0.0000
+0.0000
+4.4372
+0.0000
+0.0405
+0.0000
+0.0000
+0.0000
+1.7262
+0.0000
+0.0000
