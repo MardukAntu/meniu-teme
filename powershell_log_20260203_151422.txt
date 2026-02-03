@@ -1,0 +1,1644 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260203151422
+Username: DESKTOP-6MTA627\Bogdan
+RunAs User: DESKTOP-6MTA627\Bogdan
+Configuration Name: 
+Machine: DESKTOP-6MTA627 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 16064
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is powershell_log_20260203_151422.txt
+PS D:\IT Projects\MAP\meniu-teme> cd .\ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker images
+                                                                                   i Info →   U  In Use
+IMAGE                                ID             DISK USAGE   CONTENT SIZE   EXTRA
+potrabogdan/ascii-art:latest         edfea8d41a0d        219MB         54.1MB
+potrabogdan/dice-simulator:latest    6df780b4bd60        177MB         43.2MB
+potrabogdan/queue-simulator:latest   7af99bfd6ba9        177MB         43.2MB
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker run --rm potrabogdan/ascii-art
+#   # ##### #     #      ###
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+##### ####  #     #     #   #
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+#   # ##### ##### #####  ###
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> code .\ascii_art.py
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker run --rm potrabogdan/ascii-art
+#   # ##### #     #      ###
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+##### ####  #     #     #   #
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+#   # ##### ##### #####  ###
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker push potrabogdan/ascii-art:latest
+The push refers to repository [docker.io/potrabogdan/ascii-art]
+0c8d55a45c0d: Mounted from potrabogdan/queue-simulator
+3e7f1756106a: Mounted from potrabogdan/queue-simulator
+111204c83f75: Pushed
+64bd194df9b0: Mounted from potrabogdan/queue-simulator
+4d3e164b65c7: Mounted from potrabogdan/queue-simulator
+09de5afefbdc: Pushed
+bc602e4a0ca7: Pushed
+26b9936301c2: Mounted from potrabogdan/queue-simulator
+latest: digest: sha256:edfea8d41a0dc815a1c7993f223398b2f22f2695a87689e09ec3222e3c6e1006 size: 856
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> cd .\ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   2:46 PM                tema2-dice-simulator
+d-----          2/3/2026   2:35 PM                tema7-queue-simulator
+d-----          2/3/2026   3:02 PM                tema8-ascii-art
+-a----          2/3/2026   3:14 PM              0 powershell_log_20260203_151422.txt
+-a----          2/3/2026   2:59 PM            526 predate_master.txt
+-a----          2/3/2026   2:41 PM            366 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme> cd .\tema8-ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> notepad .\README.md
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        powershell_log_20260203_151422.txt
+        tema8-ascii-art/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\IT Projects\MAP\meniu-teme> cd .\tema2-dice-simulator\
+PS D:\IT Projects\MAP\meniu-teme\tema2-dice-simulator> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\tema2-dice-simulator
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   1:47 PM              0 .dockerignore
+-a----          2/3/2026   1:48 PM              0 .gitignore
+-a----          2/3/2026   1:59 PM          10410 dice-simulation.py
+-a----          2/3/2026   2:07 PM            148 Dockerfile
+-a----          2/3/2026   1:47 PM              0 Makefile
+-a----          2/3/2026   2:19 PM            229 predate.txt
+-a----          2/3/2026   2:12 PM           1050 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\tema2-dice-simulator> cd ..
+PS D:\IT Projects\MAP\meniu-teme> cd .\tema8-ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\tema8-ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> python .\ascii_art.py
+Provide an image path or use --text.
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> python .\ascii_art.py --text "yup"
+  #   #   # ####
+  #   #   # #
+  #   #   # #
+  #    ###  #
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        powershell_log_20260203_151422.txt
+        tema8-ascii-art/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\IT Projects\MAP\meniu-teme> git init
+Reinitialized existing Git repository in D:/IT Projects/MAP/meniu-teme/.git/
+PS D:\IT Projects\MAP\meniu-teme> git add .
+
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   powershell_log_20260203_151422.txt
+        new file:   tema8-ascii-art/.gitignore
+        new file:   tema8-ascii-art/Dockerfile
+        new file:   tema8-ascii-art/README.md
+        new file:   tema8-ascii-art/ascii_art.py
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   powershell_log_20260203_151422.txt
+PS D:\IT Projects\MAP\meniu-teme> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   2:46 PM                tema2-dice-simulator
+d-----          2/3/2026   2:35 PM                tema7-queue-simulator
+d-----          2/3/2026   3:02 PM                tema8-ascii-art
+-a----          2/3/2026   3:24 PM           7801 powershell_log_20260203_151422.txt
+-a----          2/3/2026   2:59 PM            526 predate_master.txt
+-a----          2/3/2026   3:23 PM           2393 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme> git commit -m "History Commands & Tema 8 - merge"
+[main 2b9b30e] History Commands & Tema 8 - merge
+ 6 files changed, 377 insertions(+), 7 deletions(-)
+ create mode 100644 powershell_log_20260203_151422.txt
+ create mode 100644 tema8-ascii-art/.gitignore
+ create mode 100644 tema8-ascii-art/Dockerfile
+ create mode 100644 tema8-ascii-art/README.md
+ create mode 100644 tema8-ascii-art/ascii_art.py
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   powershell_log_20260203_151422.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\IT Projects\MAP\meniu-teme> git push 
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 4.59 KiB | 4.59 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/MardukAntu/meniu-teme.git
+   8f0dbd0..2b9b30e  main -> main
+PS D:\IT Projects\MAP\meniu-teme> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   2:46 PM                tema2-dice-simulator
+d-----          2/3/2026   2:35 PM                tema7-queue-simulator
+d-----          2/3/2026   3:02 PM                tema8-ascii-art
+-a----          2/3/2026   3:24 PM           9570 powershell_log_20260203_151422.txt
+-a----          2/3/2026   2:59 PM            526 predate_master.txt
+-a----          2/3/2026   3:23 PM           2393 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme> cat .\powershell_log_20260203_151422.txt
+**********************
+Windows PowerShell transcript start
+Start time: 20260203151422
+Username: DESKTOP-6MTA627\Bogdan
+RunAs User: DESKTOP-6MTA627\Bogdan
+Configuration Name:
+Machine: DESKTOP-6MTA627 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 16064
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is powershell_log_20260203_151422.txt
+PS D:\IT Projects\MAP\meniu-teme> cd .\ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker images
+                                                                                   i Info →   U  In Use
+IMAGE                                ID             DISK USAGE   CONTENT SIZE   EXTRA
+potrabogdan/ascii-art:latest         edfea8d41a0d        219MB         54.1MB
+potrabogdan/dice-simulator:latest    6df780b4bd60        177MB         43.2MB
+potrabogdan/queue-simulator:latest   7af99bfd6ba9        177MB         43.2MB
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker run --rm potrabogdan/ascii-art
+#   # ##### #     #      ###
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+##### ####  #     #     #   #
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+#   # ##### ##### #####  ###
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> code .\ascii_art.py
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker run --rm potrabogdan/ascii-art
+#   # ##### #     #      ###
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+##### ####  #     #     #   #
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+#   # ##### ##### #####  ###
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker push potrabogdan/ascii-art:latest
+The push refers to repository [docker.io/potrabogdan/ascii-art]
+0c8d55a45c0d: Mounted from potrabogdan/queue-simulator
+3e7f1756106a: Mounted from potrabogdan/queue-simulator
+111204c83f75: Pushed
+64bd194df9b0: Mounted from potrabogdan/queue-simulator
+4d3e164b65c7: Mounted from potrabogdan/queue-simulator
+09de5afefbdc: Pushed
+bc602e4a0ca7: Pushed
+26b9936301c2: Mounted from potrabogdan/queue-simulator
+latest: digest: sha256:edfea8d41a0dc815a1c7993f223398b2f22f2695a87689e09ec3222e3c6e1006 size: 856
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> cd .\ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   2:46 PM                tema2-dice-simulator
+d-----          2/3/2026   2:35 PM                tema7-queue-simulator
+d-----          2/3/2026   3:02 PM                tema8-ascii-art
+-a----          2/3/2026   3:14 PM              0 powershell_log_20260203_151422.txt
+-a----          2/3/2026   2:59 PM            526 predate_master.txt
+-a----          2/3/2026   2:41 PM            366 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme> cd .\tema8-ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> notepad .\README.md
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        powershell_log_20260203_151422.txt
+        tema8-ascii-art/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\IT Projects\MAP\meniu-teme> cd .\tema2-dice-simulator\
+PS D:\IT Projects\MAP\meniu-teme\tema2-dice-simulator> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\tema2-dice-simulator
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   1:47 PM              0 .dockerignore
+-a----          2/3/2026   1:48 PM              0 .gitignore
+-a----          2/3/2026   1:59 PM          10410 dice-simulation.py
+-a----          2/3/2026   2:07 PM            148 Dockerfile
+-a----          2/3/2026   1:47 PM              0 Makefile
+-a----          2/3/2026   2:19 PM            229 predate.txt
+-a----          2/3/2026   2:12 PM           1050 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\tema2-dice-simulator> cd ..
+PS D:\IT Projects\MAP\meniu-teme> cd .\tema8-ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\tema8-ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> python .\ascii_art.py
+Provide an image path or use --text.
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> python .\ascii_art.py --text "yup"
+  #   #   # ####
+  #   #   # #
+  #   #   # #
+  #    ###  #
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        powershell_log_20260203_151422.txt
+        tema8-ascii-art/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\IT Projects\MAP\meniu-teme> git init
+Reinitialized existing Git repository in D:/IT Projects/MAP/meniu-teme/.git/
+PS D:\IT Projects\MAP\meniu-teme> git add .
+
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   powershell_log_20260203_151422.txt
+        new file:   tema8-ascii-art/.gitignore
+        new file:   tema8-ascii-art/Dockerfile
+        new file:   tema8-ascii-art/README.md
+        new file:   tema8-ascii-art/ascii_art.py
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   powershell_log_20260203_151422.txt
+PS D:\IT Projects\MAP\meniu-teme> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   2:46 PM                tema2-dice-simulator
+d-----          2/3/2026   2:35 PM                tema7-queue-simulator
+d-----          2/3/2026   3:02 PM                tema8-ascii-art
+-a----          2/3/2026   3:24 PM           7801 powershell_log_20260203_151422.txt
+-a----          2/3/2026   2:59 PM            526 predate_master.txt
+-a----          2/3/2026   3:23 PM           2393 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme> git commit -m "History Commands & Tema 8 - merge"
+[main 2b9b30e] History Commands & Tema 8 - merge
+ 6 files changed, 377 insertions(+), 7 deletions(-)
+ create mode 100644 powershell_log_20260203_151422.txt
+ create mode 100644 tema8-ascii-art/.gitignore
+ create mode 100644 tema8-ascii-art/Dockerfile
+ create mode 100644 tema8-ascii-art/README.md
+ create mode 100644 tema8-ascii-art/ascii_art.py
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   powershell_log_20260203_151422.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\IT Projects\MAP\meniu-teme> git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 4.59 KiB | 4.59 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/MardukAntu/meniu-teme.git
+   8f0dbd0..2b9b30e  main -> main
+PS D:\IT Projects\MAP\meniu-teme> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   2:46 PM                tema2-dice-simulator
+d-----          2/3/2026   2:35 PM                tema7-queue-simulator
+d-----          2/3/2026   3:02 PM                tema8-ascii-art
+-a----          2/3/2026   3:24 PM           9570 powershell_log_20260203_151422.txt
+-a----          2/3/2026   2:59 PM            526 predate_master.txt
+-a----          2/3/2026   3:23 PM           2393 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme> cat .\powershell_log_20260203_151422.txt
+**********************
+Windows PowerShell transcript start
+Start time: 20260203151422
+Username: DESKTOP-6MTA627\Bogdan
+RunAs User: DESKTOP-6MTA627\Bogdan
+Configuration Name:
+Machine: DESKTOP-6MTA627 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 16064
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is powershell_log_20260203_151422.txt
+PS D:\IT Projects\MAP\meniu-teme> cd .\ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker images
+                                                                                   i Info →   U  In Use
+IMAGE                                ID             DISK USAGE   CONTENT SIZE   EXTRA
+potrabogdan/ascii-art:latest         edfea8d41a0d        219MB         54.1MB
+potrabogdan/dice-simulator:latest    6df780b4bd60        177MB         43.2MB
+potrabogdan/queue-simulator:latest   7af99bfd6ba9        177MB         43.2MB
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker run --rm potrabogdan/ascii-art
+#   # ##### #     #      ###
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+##### ####  #     #     #   #
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+#   # ##### ##### #####  ###
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> code .\ascii_art.py
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker run --rm potrabogdan/ascii-art
+#   # ##### #     #      ###
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+##### ####  #     #     #   #
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+#   # ##### ##### #####  ###
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker push potrabogdan/ascii-art:latest
+The push refers to repository [docker.io/potrabogdan/ascii-art]
+0c8d55a45c0d: Mounted from potrabogdan/queue-simulator
+3e7f1756106a: Mounted from potrabogdan/queue-simulator
+111204c83f75: Pushed
+64bd194df9b0: Mounted from potrabogdan/queue-simulator
+4d3e164b65c7: Mounted from potrabogdan/queue-simulator
+09de5afefbdc: Pushed
+bc602e4a0ca7: Pushed
+26b9936301c2: Mounted from potrabogdan/queue-simulator
+latest: digest: sha256:edfea8d41a0dc815a1c7993f223398b2f22f2695a87689e09ec3222e3c6e1006 size: 856
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> cd .\ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   2:46 PM                tema2-dice-simulator
+d-----          2/3/2026   2:35 PM                tema7-queue-simulator
+d-----          2/3/2026   3:02 PM                tema8-ascii-art
+-a----          2/3/2026   3:14 PM              0 powershell_log_20260203_151422.txt
+-a----          2/3/2026   2:59 PM            526 predate_master.txt
+-a----          2/3/2026   2:41 PM            366 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme> cd .\tema8-ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> notepad .\README.md
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        powershell_log_20260203_151422.txt
+        tema8-ascii-art/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\IT Projects\MAP\meniu-teme> cd .\tema2-dice-simulator\
+PS D:\IT Projects\MAP\meniu-teme\tema2-dice-simulator> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\tema2-dice-simulator
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   1:47 PM              0 .dockerignore
+-a----          2/3/2026   1:48 PM              0 .gitignore
+-a----          2/3/2026   1:59 PM          10410 dice-simulation.py
+-a----          2/3/2026   2:07 PM            148 Dockerfile
+-a----          2/3/2026   1:47 PM              0 Makefile
+-a----          2/3/2026   2:19 PM            229 predate.txt
+-a----          2/3/2026   2:12 PM           1050 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\tema2-dice-simulator> cd ..
+PS D:\IT Projects\MAP\meniu-teme> cd .\tema8-ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\tema8-ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> python .\ascii_art.py
+Provide an image path or use --text.
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> python .\ascii_art.py --text "yup"
+  #   #   # ####
+  #   #   # #
+  #   #   # #
+  #    ###  #
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        powershell_log_20260203_151422.txt
+        tema8-ascii-art/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\IT Projects\MAP\meniu-teme> git init
+Reinitialized existing Git repository in D:/IT Projects/MAP/meniu-teme/.git/
+PS D:\IT Projects\MAP\meniu-teme> git add .
+
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   powershell_log_20260203_151422.txt
+        new file:   tema8-ascii-art/.gitignore
+        new file:   tema8-ascii-art/Dockerfile
+        new file:   tema8-ascii-art/README.md
+        new file:   tema8-ascii-art/ascii_art.py
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   powershell_log_20260203_151422.txt
+PS D:\IT Projects\MAP\meniu-teme> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   2:46 PM                tema2-dice-simulator
+d-----          2/3/2026   2:35 PM                tema7-queue-simulator
+d-----          2/3/2026   3:02 PM                tema8-ascii-art
+-a----          2/3/2026   3:24 PM           7801 powershell_log_20260203_151422.txt
+-a----          2/3/2026   2:59 PM            526 predate_master.txt
+-a----          2/3/2026   3:23 PM           2393 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme> git commit -m "History Commands & Tema 8 - merge"
+[main 2b9b30e] History Commands & Tema 8 - merge
+ 6 files changed, 377 insertions(+), 7 deletions(-)
+ create mode 100644 powershell_log_20260203_151422.txt
+ create mode 100644 tema8-ascii-art/.gitignore
+ create mode 100644 tema8-ascii-art/Dockerfile
+ create mode 100644 tema8-ascii-art/README.md
+ create mode 100644 tema8-ascii-art/ascii_art.py
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   powershell_log_20260203_151422.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\IT Projects\MAP\meniu-teme> git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 4.59 KiB | 4.59 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/MardukAntu/meniu-teme.git
+   8f0dbd0..2b9b30e  main -> main
+PS D:\IT Projects\MAP\meniu-teme> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   2:46 PM                tema2-dice-simulator
+d-----          2/3/2026   2:35 PM                tema7-queue-simulator
+d-----          2/3/2026   3:02 PM                tema8-ascii-art
+-a----          2/3/2026   3:24 PM           9570 powershell_log_20260203_151422.txt
+-a----          2/3/2026   2:59 PM            526 predate_master.txt
+-a----          2/3/2026   3:23 PM           2393 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme> cat .\powershell_log_20260203_151422.txt
+**********************
+Windows PowerShell transcript start
+Start time: 20260203151422
+Username: DESKTOP-6MTA627\Bogdan
+RunAs User: DESKTOP-6MTA627\Bogdan
+Configuration Name:
+Machine: DESKTOP-6MTA627 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 16064
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is powershell_log_20260203_151422.txt
+PS D:\IT Projects\MAP\meniu-teme> cd .\ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker images
+                                                                                   i Info →   U  In Use
+IMAGE                                ID             DISK USAGE   CONTENT SIZE   EXTRA
+potrabogdan/ascii-art:latest         edfea8d41a0d        219MB         54.1MB
+potrabogdan/dice-simulator:latest    6df780b4bd60        177MB         43.2MB
+potrabogdan/queue-simulator:latest   7af99bfd6ba9        177MB         43.2MB
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker run --rm potrabogdan/ascii-art
+#   # ##### #     #      ###
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+##### ####  #     #     #   #
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+#   # ##### ##### #####  ###
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> code .\ascii_art.py
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker run --rm potrabogdan/ascii-art
+#   # ##### #     #      ###
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+##### ####  #     #     #   #
+#   # #     #     #     #   #
+#   # #     #     #     #   #
+#   # ##### ##### #####  ###
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> docker push potrabogdan/ascii-art:latest
+The push refers to repository [docker.io/potrabogdan/ascii-art]
+0c8d55a45c0d: Mounted from potrabogdan/queue-simulator
+3e7f1756106a: Mounted from potrabogdan/queue-simulator
+111204c83f75: Pushed
+64bd194df9b0: Mounted from potrabogdan/queue-simulator
+4d3e164b65c7: Mounted from potrabogdan/queue-simulator
+09de5afefbdc: Pushed
+bc602e4a0ca7: Pushed
+26b9936301c2: Mounted from potrabogdan/queue-simulator
+latest: digest: sha256:edfea8d41a0dc815a1c7993f223398b2f22f2695a87689e09ec3222e3c6e1006 size: 856
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> cd .\ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   2:46 PM                tema2-dice-simulator
+d-----          2/3/2026   2:35 PM                tema7-queue-simulator
+d-----          2/3/2026   3:02 PM                tema8-ascii-art
+-a----          2/3/2026   3:14 PM              0 powershell_log_20260203_151422.txt
+-a----          2/3/2026   2:59 PM            526 predate_master.txt
+-a----          2/3/2026   2:41 PM            366 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme> cd .\tema8-ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> notepad .\README.md
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        powershell_log_20260203_151422.txt
+        tema8-ascii-art/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\IT Projects\MAP\meniu-teme> cd .\tema2-dice-simulator\
+PS D:\IT Projects\MAP\meniu-teme\tema2-dice-simulator> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\tema2-dice-simulator
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   1:47 PM              0 .dockerignore
+-a----          2/3/2026   1:48 PM              0 .gitignore
+-a----          2/3/2026   1:59 PM          10410 dice-simulation.py
+-a----          2/3/2026   2:07 PM            148 Dockerfile
+-a----          2/3/2026   1:47 PM              0 Makefile
+-a----          2/3/2026   2:19 PM            229 predate.txt
+-a----          2/3/2026   2:12 PM           1050 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\tema2-dice-simulator> cd ..
+PS D:\IT Projects\MAP\meniu-teme> cd .\tema8-ascii-art\
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme\tema8-ascii-art
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2/3/2026   3:02 PM              0 .gitignore
+-a----          2/3/2026   3:08 PM           9660 ascii_art.py
+-a----          2/3/2026   3:10 PM            156 Dockerfile
+-a----          2/3/2026   3:10 PM            368 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> python .\ascii_art.py
+Provide an image path or use --text.
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> python .\ascii_art.py --text "yup"
+  #   #   # ####
+  #   #   # #
+  #   #   # #
+  #    ###  #
+PS D:\IT Projects\MAP\meniu-teme\tema8-ascii-art> cd ..
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        powershell_log_20260203_151422.txt
+        tema8-ascii-art/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\IT Projects\MAP\meniu-teme> git init
+Reinitialized existing Git repository in D:/IT Projects/MAP/meniu-teme/.git/
+PS D:\IT Projects\MAP\meniu-teme> git add .
+
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   powershell_log_20260203_151422.txt
+        new file:   tema8-ascii-art/.gitignore
+        new file:   tema8-ascii-art/Dockerfile
+        new file:   tema8-ascii-art/README.md
+        new file:   tema8-ascii-art/ascii_art.py
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   powershell_log_20260203_151422.txt
+PS D:\IT Projects\MAP\meniu-teme> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   2:46 PM                tema2-dice-simulator
+d-----          2/3/2026   2:35 PM                tema7-queue-simulator
+d-----          2/3/2026   3:02 PM                tema8-ascii-art
+-a----          2/3/2026   3:24 PM           7801 powershell_log_20260203_151422.txt
+-a----          2/3/2026   2:59 PM            526 predate_master.txt
+-a----          2/3/2026   3:23 PM           2393 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme> git commit -m "History Commands & Tema 8 - merge"
+[main 2b9b30e] History Commands & Tema 8 - merge
+ 6 files changed, 377 insertions(+), 7 deletions(-)
+ create mode 100644 powershell_log_20260203_151422.txt
+ create mode 100644 tema8-ascii-art/.gitignore
+ create mode 100644 tema8-ascii-art/Dockerfile
+ create mode 100644 tema8-ascii-art/README.md
+ create mode 100644 tema8-ascii-art/ascii_art.py
+PS D:\IT Projects\MAP\meniu-teme> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   powershell_log_20260203_151422.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\IT Projects\MAP\meniu-teme> git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 4.59 KiB | 4.59 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/MardukAntu/meniu-teme.git
+   8f0dbd0..2b9b30e  main -> main
+PS D:\IT Projects\MAP\meniu-teme> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   2:46 PM                tema2-dice-simulator
+d-----          2/3/2026   2:35 PM                tema7-queue-simulator
+d-----          2/3/2026   3:02 PM                tema8-ascii-art
+-a----          2/3/2026   3:24 PM           9570 powershell_log_20260203_151422.txt
+-a----          2/3/2026   2:59 PM            526 predate_master.txt
+-a----          2/3/2026   3:23 PM           2393 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme> ls -l 
+>> TerminatingError(Get-ChildItem): "Missing an argument for parameter 'LiteralPath'. Specify a parameter of type 'System.String[]' and try again."
+Get-ChildItem : Missing an argument for parameter 'LiteralPath'. Specify a parameter of type 'System.String[]' and try 
+again.
+At line:1 char:4
++ ls -l
++    ~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : Missing an argument for parameter 'LiteralPath'. Specify a parameter of type
+'System.String[]' and try again.
+At line:1 char:4
++ ls -l
++    ~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS D:\IT Projects\MAP\meniu-teme> ls -a
+>> TerminatingError(Get-ChildItem): "Parameter cannot be processed because the parameter name 'a' is ambiguous. Possible matches include: -Attributes -Directory -File -Hidden -ReadOnly -System."
+Get-ChildItem : Parameter cannot be processed because the parameter name 'a' is ambiguous. Possible matches include: 
+-Attributes -Directory -File -Hidden -ReadOnly -System.
+At line:1 char:4
++ ls -a
++    ~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameter,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : Parameter cannot be processed because the parameter name 'a' is ambiguous. Possible
+matches include: -Attributes -Directory -File -Hidden -ReadOnly -System.
+At line:1 char:4
++ ls -a
++    ~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameter,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS D:\IT Projects\MAP\meniu-teme> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   2:46 PM                tema2-dice-simulator
+d-----          2/3/2026   2:35 PM                tema7-queue-simulator
+d-----          2/3/2026   3:02 PM                tema8-ascii-art
+-a----          2/3/2026   3:25 PM          22209 powershell_log_20260203_151422.txt
+-a----          2/3/2026   2:59 PM            526 predate_master.txt
+-a----          2/3/2026   3:23 PM           2393 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme> ls -lh
+>> TerminatingError(Get-ChildItem): "A parameter cannot be found that matches parameter name 'lh'."
+Get-ChildItem : A parameter cannot be found that matches parameter name 'lh'.
+At line:1 char:4
++ ls -lh
++    ~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : A parameter cannot be found that matches parameter name 'lh'.
+At line:1 char:4
++ ls -lh
++    ~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.GetChildItemComman
+   d
+
+PS D:\IT Projects\MAP\meniu-teme> history
+
+  Id CommandLine
+  -- -----------
+   1 cd ..
+   2 cd ..
+   3 cd D:/
+   4 ls
+   5 cdI
+   6 cd '.\IT Projects\'
+   7 ls
+   8 mkdir MAP
+   9 cd .\MAP\
+  10 ls
+  11 pwd
+  12 pwd
+  13 ls
+  14 mkdir dice-simulator
+  15 cd .\dice-simulator\
+  16 ls
+  17 mkdir src
+  18 ni .\src\dice-simulator.c -ItemType File
+  19 ls
+  20 cd .\src\
+  21 ls
+  22 cd ..
+  23 ls
+  24 ni Makefile -ItemType File
+  25 ni Dockerfile -ItemType File
+  26 ni .dockerignore  -ItemType File
+  27 ls
+  28 ni -gitignore  -ItemType File
+  29 ls
+  30 ni .gitignore  -ItemType File
+  31 ni README.md  -ItemType File
+  32 ls
+  33 tree /f
+  34 code .\src\dice-simulator.c
+  35 code
+  36 make
+  37 cd .\src\
+  38 rm .\dice-simulator.c
+  39 touch dice-simulator.py
+  40 ni dice-simulator.py  -ItemType File
+  41 ls
+  42 .\dice-simulator.py
+  43 .\dice-simulator.py
+  44 python .\dice-simulator.py
+  45 python dice_simulator.py --faces 6 --rolls 1000
+  46 python dice_simulator.py --faces 6 --rolls 1000 --chart histogram
+  47 ls
+  48 ls
+  49 cd ..
+  50 ls
+  51 ls
+  52 ls
+  53 python .\dice-simulation.py
+  54 python dice_simulator.py --faces 6 --rolls 1000
+  55 python dice_simulator.py --faces 6 --rolls 1000
+  56 python .\dice-simulation.py --faces 6 --rolls 1000
+  57 ls
+  58 ls
+  59 docker run --rm potrabogdan/dice-simulator
+  60 docker ps
+  61 docker images
+  62 docker rmi $(docker images -q)
+  63 docker images
+  64 docker rmi $(docker images -q)
+  65 docker images
+  66 docker stop $(docker ps -q)
+  67 docker rm $(docker ps -aq)
+  68 docker rmi $(docker images -q)
+  69 docker images
+  70 docker images
+  71 docker containers
+  72 docker containers
+  73 docker ps
+  74 docker ps -a
+  75 docker images
+  76 docker build -t potrabogdan/dice-simulator .
+  77 docker ps
+  78 docker images
+  79 docker run --rm potrabogdan/dice-simulator
+  80 docker run --rm potrabogdan/dice-simulator
+  81 docker run --rm potrabogdan/dice-simulator
+  82 docker run --rm potrabogdan/dice-simulator \
+  83   python dice-simulation.py --prob 7 --dice 2 --faces 6 --rolls 10000
+  84 docker run --rm potrabogdan/dice-simulator \
+  85   python dice-simulation.py --prob 7 --dice 2 --faces 6 --rolls 10000
+  86 docker run --rm potrabogdan/dice-simulator \ python dice-simulation.py --prob 7 --dice 2 --fac...
+  87 docker run --rm potrabogdan/dice-simulator python dice-simulation.py --prob 7 --dice 2 --faces...
+  88 docker run --rm potrabogdan/dice-simulator python dice-simulation.py --prob 7 --dice 2 --faces...
+  89 docker run --rm potrabogdan/dice-simulator `...
+  90 docker login
+  91 docker push potrabogdan/dice-simulator
+  92 git init
+  93 git init
+  94 git add .
+  95 git status
+  96 git commit -m "Tema Cu Zarurile PYTHON"
+  97 ls
+  98 git status
+  99 ls
+ 100 git push
+ 101 git log --oneline
+ 102 git branch -M main
+ 103 git log --oneline
+ 104 git remote add origin https://github.com/MardukAntu/dice-simulator.git
+ 105 git push -u origin main
+ 106 ls
+ 107 ni predate.txt -ItemType File
+ 108 ls
+ 109 docker run --rm potrabogdan/dice-simulator
+ 110 cd ..
+ 111 ls
+ 112 mkdir queue-simulator
+ 113 cd .\queue-simulator\
+ 114 ls
+ 115 ni queue_simulator.py -ItemType File
+ 116 ni Dockerfile -ItemType File
+ 117 ni README.md -ItemType File
+ 118 ni .gitignore -ItemType File
+ 119 ni .dockerignore -ItemType File
+ 120 ls
+ 121 code
+ 122 code .
+ 123 ls
+ 124 cat .\queue_simulator.py
+ 125 python .\queue_simulator.py --clients 100 --arrival_rate 0.3 --service_rate 0.5 --report detailed
+ 126 cd ..
+ 127 ls
+ 128 cd .\dice-simulator\
+ 129 ls
+ 130 cat .\README.md
+ 131 python .\dice-simulation.py -prob 7 --dice 2 --faces 6  -rolls 10000
+ 132 python .\dice-simulation.py --prob 7 --dice 2 --faces 6  --rolls 10000
+ 133 python .\dice-simulation.py --prob 7 --dice 2 --faces 6  --rolls 100
+ 134 python .\dice-simulation.py --prob 7 --dice 2 --faces 6  --rolls 10
+ 135 python .\dice-simulation.py --prob 7 --dice 2 --faces 6  --rolls 5
+ 136 cd ..
+ 137 cd .\queue-simulator\
+ 138 python .\queue_simulator.py
+ 139 docker build -t potrabogdan/queue-simulator .
+ 140 docker images
+ 141 docker run --rm potrabogdan/queue-simulator
+ 142 docker run --rm potrabogdan/queue-simulator python queue_simulator.py --compare "1,2,3" --clie...
+ 143 docker run --rm potrabogdan/queue-simulator python queue_simulator.py --compare "1,2,3" --clie...
+ 144 docker run --rm potrabogdan/queue-simulator python queue_simulator.py --compare "1,2,3" --clie...
+ 145 docker run --rm potrabogdan/queue-simulator python queue_simulator.py --compare "1,2,3" --clie...
+ 146 docker login
+ 147 docker push potrabogdan/queue-simulator
+ 148 docker ps
+ 149 docker run --rm potrabogdan/queue-simulator
+ 150 docker ps -a
+ 151 docker images
+ 152 docker ps -a
+ 153 ls
+ 154 python .\queue_simulator.py
+ 155 cd ..
+ 156 mkdir meniu-teme
+ 157 cd .\meniu-teme\
+ 158 ls
+ 159 mkdir tema2-dice-simunator
+ 160 mkdir tema7-queue-simulator
+ 161 ls
+ 162 cd ..
+ 163 ls
+ 164 cd .\meniu-teme\
+ 165 copy "..\dice-simulator\*" ".\tema2-dice-simulator\" -Recurse -Force
+ 166 ls
+ 167 cd .\tema2-dice-simulator\
+ 168 ls
+ 169 cat .\HEAD
+ 170 cd ..
+ 171 ls
+ 172 ls
+ 173 copy "..\queue-simulator\*" ".\tema7-queue-simulator\" -Recurse -Force
+ 174 ls
+ 175 cd .\tema7-queue-simulator\
+ 176 ls
+ 177 cd ..
+ 178 cd ..
+ 179 cd .\dice-simulator\
+ 180 ls
+ 181 cd ..
+ 182 cd .\meniu-teme\
+ 183 ls
+ 184 rm .\tema2-dice-simulator\
+ 185 rm .\tema2-dice-simulator\
+ 186 rm .\tema2-dice-simulator\ force
+ 187 rm .\tema2-dice-simulator\ -force
+ 188 ls
+ 189 rm .\tema2-dice-simulator\ -force
+ 190 ls
+ 191 rm .\tema2-dice-simunator\ -force
+ 192 ls
+ 193 copy "..\dice-simulator\*" ".\tema2-dice-simulator\" -Recurse -Force
+ 194 ls
+ 195 cd .\tema2-dice-simulator\
+ 196 ls
+ 197 cd ..
+ 198 ls
+ 199 cat .\tema2-dice-simulator\
+ 200 ls
+ 201 cd .\tema2-dice-simulator\
+ 202 ls
+ 203 cd ..
+ 204 tree /f
+ 205 cd .\tema7-queue-simulator\
+ 206 ls
+ 207 cd .\reports\
+ 208 ls
+ 209 cat .\queue_report_20260203_142314.txt
+ 210 cd ..
+ 211 cd ..
+ 212 ls
+ 213 tree /f
+ 214 code .
+ 215 git status
+ 216 ni README.md -ItemType -File
+ 217 ni README.md -ItemType File
+ 218 ls
+ 219 docker run --rm potrabogdan/dice-simulator:latest python dice-simulation.py --prob 7 --dice 2 ...
+ 220 docker run --rm potrabogdan/queue-simulator:latest
+ 221 docker run --rm potrabogdan/queue-simulator:latest python queue_simulator.py --compare "1,2,3"...
+ 222 git init
+ 223 git status
+ 224 git add .
+ 225 git commit -m "Master repo: meniu teme (Tema 2 + Tema 7)"
+ 226 git status
+ 227 ls
+ 228 git status
+ 229 rmdir /s /q tema2-dice-simulator\.git
+ 230 rmdir \s \q tema2-dice-simulator\.git
+ 231 PS D:\IT Projects\MAP\meniu-teme> rmdir /s /q tema2-dice-simulator\.git
+ 232 Remove-Item : A positional parameter cannot be found that accepts argument '/q'.
+ 233 At line:1 char:1
+ 234 + rmdir /s /q tema2-dice-simulator\.git
+ 235 + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 236     + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+ 237     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.Remove...
+ 238 Remove-Item -Recurse -Force tema2-dice-simulator\.git
+ 239 Remove-Item -Recurse -Force tema7-queue-simulator\.git
+ 240 Remove-Item -Recurse -Force tema7-queue-simulator\.git
+ 241 ls
+ 242 ls .\tema2-dice-simulator\
+ 243 ls .\tema7-queue-simulator\
+ 244 ls .\tema7-queue-simulator\
+ 245 git add .
+ 246 git commit -m "MASTER REPO: Meniu Teme (2 + 7 momentan)"
+ 247 git status
+ 248 git branch -M main
+ 249 git status
+ 250 git remote add origin https://github.com/MardukAntu/meniu-teme.git
+ 251 git push -u origin main
+ 252 git remote add origin https://github.com/MardukAntu/meniu-teme.git
+ 253 git push -u origin main
+ 254 ls
+ 255 git status
+ 256 ls
+ 257 ls .\tema2-dice-simulator\
+ 258 ls
+ 259 cd .\tema2-dice-simulator\
+ 260 ls
+ 261 git add .
+ 262 ls
+ 263 cd ..
+ 264 git rm --cached tema2-dice-simulator
+ 265 git rm --cached tema2-dice-simulator
+ 266 Remove-Item -Recurse -Force .git\modules\tema2-dice-simulator -ErrorAction SilentlyContinue
+ 267 Remove-Item -Force .gitmodules -ErrorAction SilentlyContinue
+ 268 git add .\tema2-dice-simulator\
+ 269 git status
+ 270 git commit -m "Am inclus Tema2 ca folder (nu submodul???)"
+ 271 git push
+ 272 git status
+ 273 git status
+ 274 ls
+ 275 ni predate_master.txt -ItemType File
+ 276 ls
+ 277 @"Titlu: Meniu Teme – multiple proiecte (Python + Docker)
+ 278 Repository GitHub (public):
+ 279 https://github.com/MardukAntu/meniu-teme
+ 280 Docker images (public):
+ 281 https://hub.docker.com/r/potrabogdan/dice-simulator
+ 282 @"Titlu: Meniu Teme – multiple proiecte (Python + Docker)"@ | Set-Content .\predate_master.txt
+ 283 Repository GitHub (public):
+ 284 https://github.com/MardukAntu/meniu-teme
+ 285 Docker images (public):
+ 286 https://hub.docker.com/r/potrabogdan/dice-simulator
+ 287 echo
+ 288 Repository GitHub (public):
+ 289 https://github.com/MardukAntu/meniu-teme
+ 290 Docker images (public):
+ 291 https://hub.docker.com/r/potrabogdan/dice-simulator
+ 292 echo "Titlu: Meniu Teme – multiple proiecte (Python + Docker)" >> .\predate_master.txt
+ 293 cat .\predate_master.txt
+ 294 ls
+ 295 notepad .\predate_master.txt
+ 296 cat .\predate_master.txt
+ 297 git status
+ 298 git add .\predate_master.txt
+ 299 git status
+ 300 git commit -m "Adaugat predare_master.txt"
+ 301 git push
+ 302 git log --oneline
+ 303 git log --oneline -2
+ 304 ls
+ 305 mkdir ascii-art
+ 306 cd ascii-art
+ 307 ni ascii_art.py -ItemType File
+ 308 ni Dockerfile -ItemType File
+ 309 ni README.md -ItemType File
+ 310 ni .gitignore -ItemType File
+ 311 ni .dockerignore -ItemType Filels
+ 312 ls
+ 313 cd ..
+ 314 ls
+ 315 cd .\ascii-art\
+ 316 ls
+ 317 ls
+ 318 notepad .\ascii_art.py
+ 319 cd ..
+ 320 notepad .\predate_master.txt
+ 321 cd .\ascii-art\
+ 322 ls
+ 323 cat .\ascii_art.py
+ 324 python .\ascii_art.py
+ 325 ls
+ 326 pip install pillow
+ 327 ls
+ 328 python .\ascii_art.py --text "HELLO" --preview
+ 329 python .\ascii_art.py --text "GEKO in the HOUSE" --preview
+ 330 ls
+ 331 notepad .\Dockerfile
+ 332 ls .\Dockerfile
+ 333 cat .\Dockerfile
+ 334 cat .\Dockerfile
+ 335 ls
+ 336 notepad .\README.md
+ 337 cat .\README.md
+ 338 docker run --rm potrabogdan/ascii-art:latest
+ 339 docker ps
+ 340 docker images
+ 341 docker build -t potrabogdan/ascii-art .
+ 342 docker images
+ 343 cd ..
+ 344 Start-Transcript -Path powershell_work_log.txt
+ 345 cd .\ascii-art\
+ 346 cd ..
+ 347 ls
+ 348 cat .\powershell_work_log.txt
+ 349 cd .\ascii-art\
+ 350 ls
+ 351 Stop-Transcript
+ 352 cd ..
+ 353 ls
+ 354 rm .\powershell_work_log.txt
+ 355 ls
+ 356 Start-Transcript -Path ("powershell_log_" + (Get-Date -Format "yyyyMMdd_HHmmss") + ".txt")
+ 357 cd .\ascii-art\
+ 358 docker images
+ 359 docker run --rm potrabogdan/ascii-art
+ 360 ls
+ 361 code .\ascii_art.py
+ 362 docker run --rm potrabogdan/ascii-art
+ 363 docker push potrabogdan/ascii-art:latest
+ 364 ls
+ 365 cd ..
+ 366 cd .\ascii-art\
+ 367 ls
+ 368 cd ..
+ 369 ls
+ 370 cd .\tema8-ascii-art\
+ 371 cd ..
+ 372 notepad .\README.md
+ 373 git status
+ 374 cd .\tema2-dice-simulator\
+ 375 ls
+ 376 cd ..
+ 377 cd .\tema8-ascii-art\
+ 378 ls
+ 379 python .\ascii_art.py
+ 380 python .\ascii_art.py --text "yup"
+ 381 cd ..
+ 382 git status
+ 383 git init
+ 384 git add .
+ 385 git status
+ 386 ls
+ 387 git commit -m "History Commands & Tema 8 - merge"
+ 388 git status
+ 389 git push
+ 390 ls
+ 391 cat .\powershell_log_20260203_151422.txt
+ 392 cat .\powershell_log_20260203_151422.txt
+ 393 ls -l
+ 394 ls -a
+ 395 ls
+ 396 ls -lh
+
+
+PS D:\IT Projects\MAP\meniu-teme> Get-History | Where-Object { $_.CommandLine -match '^git' } | Select-Object -ExpandProperty CommandLine
+git init
+git init
+git add .
+git status
+git commit -m "Tema Cu Zarurile PYTHON"
+git status
+git push
+git log --oneline
+git branch -M main
+git log --oneline
+git remote add origin https://github.com/MardukAntu/dice-simulator.git
+git push -u origin main
+git status
+git init
+git status
+git add .
+git commit -m "Master repo: meniu teme (Tema 2 + Tema 7)"
+git status
+git status
+git add .
+git commit -m "MASTER REPO: Meniu Teme (2 + 7 momentan)"
+git status
+git branch -M main
+git status
+git remote add origin https://github.com/MardukAntu/meniu-teme.git
+git push -u origin main
+git remote add origin https://github.com/MardukAntu/meniu-teme.git
+git push -u origin main
+git status
+git add .
+git rm --cached tema2-dice-simulator
+git rm --cached tema2-dice-simulator
+git add .\tema2-dice-simulator\
+git status
+git commit -m "Am inclus Tema2 ca folder (nu submodul???)"
+git push
+git status
+git status
+git status
+git add .\predate_master.txt
+git status
+git commit -m "Adaugat predare_master.txt"
+git push
+git log --oneline
+git log --oneline -2
+git status
+git status
+git init
+git add .
+git status
+git commit -m "History Commands & Tema 8 - merge"
+git status
+git push
+PS D:\IT Projects\MAP\meniu-teme> git log --oneline
+2b9b30e (HEAD -> main, origin/main) History Commands & Tema 8 - merge
+8f0dbd0 Adaugat predare_master.txt
+bd98334 Am inclus Tema2 ca folder (nu submodul???)
+3be691d Master repo: meniu teme (Tema 2 + Tema 7)
+PS D:\IT Projects\MAP\meniu-teme> ls
+
+
+    Directory: D:\IT Projects\MAP\meniu-teme
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   2:46 PM                tema2-dice-simulator
+d-----          2/3/2026   2:35 PM                tema7-queue-simulator
+d-----          2/3/2026   3:02 PM                tema8-ascii-art
+-a----          2/3/2026   3:25 PM          22209 powershell_log_20260203_151422.txt
+-a----          2/3/2026   2:59 PM            526 predate_master.txt
+-a----          2/3/2026   3:23 PM           2393 README.md
+
+
+PS D:\IT Projects\MAP\meniu-teme> code .\powershell_log_20260203_151422.txt
+
+PS D:\IT Projects\MAP\meniu-teme> Get-History | Where-Object { $_.CommandLine -match '^Start' } | Select-Object -ExpandProperty CommandLine
+Start-Transcript -Path powershell_work_log.txt
+Start-Transcript -Path ("powershell_log_" + (Get-Date -Format "yyyyMMdd_HHmmss") + ".txt")
+PS D:\IT Projects\MAP\meniu-teme> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20260203152944
+**********************
