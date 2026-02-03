@@ -1,0 +1,7 @@
+Titlu: Tema 2 – Simulator de zaruri și jocuri de noroc (Monte Carlo)
+
+Repository GitHub (public):
+https://github.com/MardukAntu/dice-simulator
+
+Docker image (public):
+https://hub.docker.com/r/potrabogdan/dice-simulator
